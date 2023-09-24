@@ -6,3 +6,4 @@
 /Backend/AccountTrial/.vs
 /Backend/AccountTrial/AccountTrial/obj
 /Backend/AccountTrial/AccountTrial/AccountTrial.csproj.user
+**/obj
