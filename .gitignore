@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Backend/AccountTrial/.vs
+/Backend/AccountTrial/AccountTrial/obj
+/Backend/AccountTrial/AccountTrial/AccountTrial.csproj.user
