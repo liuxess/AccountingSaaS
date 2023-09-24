@@ -1,0 +1,242 @@
+<mxfile host="app.diagrams.net" modified="2023-09-24T12:27:49.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="ha6RhzdH4cVQ1yFzsNuS" version="21.3.4" type="device">
+  <diagram name="Page-1" id="WCGmDvJDqdLQ--vFYMEj">
+    <mxGraphModel dx="3233" dy="1526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <object label="Step 1: Basic CRUD" id="QQ_C-k0h6Ip4yUIKFo_p-139">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-6" value="PostgreSQL&lt;br&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Database_for_PostgreSQL_servers.svg;" parent="QQ_C-k0h6Ip4yUIKFo_p-139" vertex="1">
+          <mxGeometry x="-780" y="-30.45" width="67.56" height="88.89" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-139" source="QQ_C-k0h6Ip4yUIKFo_p-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-742.5" y="85.4602980840773" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-33" value="Accounting &lt;br&gt;CRUD&amp;nbsp;Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-139" vertex="1">
+          <mxGeometry x="-799" y="225" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-139" source="QQ_C-k0h6Ip4yUIKFo_p-29" target="QQ_C-k0h6Ip4yUIKFo_p-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-85" value="ORM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-139" vertex="1" connectable="0">
+          <mxGeometry x="-725.0038095238097" y="206.00047619047615" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-79" value="REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-139" vertex="1" connectable="0">
+          <mxGeometry x="-978.9961904761903" y="500" as="geometry">
+            <mxPoint x="143" y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-29" value="Client&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Workstation_128x128.png;flipH=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-139" vertex="1">
+          <mxGeometry x="-935.5" y="436" width="80" height="80" as="geometry" />
+        </mxCell>
+        <object label="Step 2: Command introduction" id="QQ_C-k0h6Ip4yUIKFo_p-138">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-138" source="QQ_C-k0h6Ip4yUIKFo_p-29" target="QQ_C-k0h6Ip4yUIKFo_p-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-21" value="Accounting &lt;br&gt;Command&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-138" vertex="1">
+          <mxGeometry x="-638" y="202" width="183" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-138" source="QQ_C-k0h6Ip4yUIKFo_p-21" target="QQ_C-k0h6Ip4yUIKFo_p-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-646" y="255" />
+              <mxPoint x="-646" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-87" value="REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-138" vertex="1" connectable="0">
+          <mxGeometry x="-656.9961904761903" y="246" as="geometry" />
+        </mxCell>
+        <object label="Step 3: Introduce RO DB replica" id="QQ_C-k0h6Ip4yUIKFo_p-140">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-11" value="DB Synchronization service" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;sketch=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-140" vertex="1">
+          <mxGeometry x="-875" y="98" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-7" value="PostgreSQL&amp;nbsp;&lt;br&gt;read-only" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Database_for_PostgreSQL_servers.svg;" parent="QQ_C-k0h6Ip4yUIKFo_p-140" vertex="1">
+          <mxGeometry x="-919.34" y="-28" width="63.84" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-140" source="QQ_C-k0h6Ip4yUIKFo_p-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-856" y="14" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-828" y="14" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-88" value="?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-140" vertex="1" connectable="0">
+          <mxGeometry x="-802.0038095238097" y="85.00047619047615" as="geometry">
+            <mxPoint x="-16" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-140" source="QQ_C-k0h6Ip4yUIKFo_p-11" target="QQ_C-k0h6Ip4yUIKFo_p-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-806" y="14" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="Step 4: Introduce quick Queries" id="QQ_C-k0h6Ip4yUIKFo_p-141">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-141" source="QQ_C-k0h6Ip4yUIKFo_p-29" target="QQ_C-k0h6Ip4yUIKFo_p-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1128" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-76" value="REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-42" vertex="1" connectable="0">
+          <mxGeometry x="-0.6317" relative="1" as="geometry">
+            <mxPoint x="55" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-19" value="Accounting &lt;br&gt;Query Service&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-141" vertex="1">
+          <mxGeometry x="-1157" y="225" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-141" source="QQ_C-k0h6Ip4yUIKFo_p-19" target="QQ_C-k0h6Ip4yUIKFo_p-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1100" y="12" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-83" value="ORM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.6633" y="1" relative="1" as="geometry">
+            <mxPoint x="17" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-8" value="Redis&lt;br&gt;cache" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.redis;fillColor=#2E73B8;gradientColor=none;" parent="QQ_C-k0h6Ip4yUIKFo_p-141" vertex="1">
+          <mxGeometry x="-1055" y="-21" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.027;entryY=0.466;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-141" source="QQ_C-k0h6Ip4yUIKFo_p-8" target="QQ_C-k0h6Ip4yUIKFo_p-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-84" value="Redis&lt;br&gt;sync OBD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-141" vertex="1" connectable="0">
+          <mxGeometry x="-942.0038095238097" y="-5.999523809523851" as="geometry">
+            <mxPoint x="-16" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Step 5: FE introduction" id="QQ_C-k0h6Ip4yUIKFo_p-142">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-142" source="QQ_C-k0h6Ip4yUIKFo_p-29" target="QQ_C-k0h6Ip4yUIKFo_p-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-77" value="REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-142" vertex="1" connectable="0">
+          <mxGeometry x="-877.9961904761903" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-23" value="Node.js SSR &lt;br&gt;service&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-142" vertex="1">
+          <mxGeometry x="-953" y="320" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-142" source="QQ_C-k0h6Ip4yUIKFo_p-23" target="QQ_C-k0h6Ip4yUIKFo_p-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1063" y="264" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1071" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-78" value="REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-142" vertex="1" connectable="0">
+          <mxGeometry x="-969.9961904761903" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-142" source="QQ_C-k0h6Ip4yUIKFo_p-33" target="QQ_C-k0h6Ip4yUIKFo_p-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1042" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-82" value="REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-142" vertex="1" connectable="0">
+          <mxGeometry x="-946.0061904761903" y="543" as="geometry">
+            <mxPoint x="128" y="-296" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Step 6: Event introduction" id="QQ_C-k0h6Ip4yUIKFo_p-143">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-146" value="&lt;font color=&quot;#ffffff&quot;&gt;Kafka&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_events;" parent="QQ_C-k0h6Ip4yUIKFo_p-143" vertex="1">
+          <mxGeometry x="-474" y="-17" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-149" value="Event Processing Service" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;sketch=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-143" vertex="1">
+          <mxGeometry x="-418.00000000000006" y="229" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-81" value="REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-143" vertex="1" connectable="0">
+          <mxGeometry x="-432.99619047619035" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-143" source="QQ_C-k0h6Ip4yUIKFo_p-149" target="QQ_C-k0h6Ip4yUIKFo_p-146" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-337" y="-26" as="targetPoint" />
+            <mxPoint x="-282.9523809523812" y="189" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-67" value="Consume&lt;br&gt;Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-66" vertex="1" connectable="0">
+          <mxGeometry x="-0.2649" y="1" relative="1" as="geometry">
+            <mxPoint x="28" y="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-143" source="QQ_C-k0h6Ip4yUIKFo_p-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-475" y="14" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-520" y="14" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-69" value="Publish&lt;br&gt;Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-68" vertex="1" connectable="0">
+          <mxGeometry x="-0.8351" y="-2" relative="1" as="geometry">
+            <mxPoint x="20" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-143" target="QQ_C-k0h6Ip4yUIKFo_p-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-419" y="249.0476190476188" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Step 7: WebHook introduction" id="QQ_C-k0h6Ip4yUIKFo_p-150">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-150" source="QQ_C-k0h6Ip4yUIKFo_p-21" target="QQ_C-k0h6Ip4yUIKFo_p-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-613" y="100" />
+              <mxPoint x="-613" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-71" value="Trigger&lt;br&gt;hooks" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-150" vertex="1" connectable="0">
+          <mxGeometry x="-592" y="186.00238095238075" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-54" value="Web Hook&lt;br&gt;Service" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;sketch=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-150" vertex="1">
+          <mxGeometry x="-670" y="-6" width="114" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="QQ_C-k0h6Ip4yUIKFo_p-150" source="QQ_C-k0h6Ip4yUIKFo_p-54" target="QQ_C-k0h6Ip4yUIKFo_p-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-86" value="ORM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-150" vertex="1" connectable="0">
+          <mxGeometry x="-684.0038095238097" y="3.0004761904761494" as="geometry" />
+        </mxCell>
+        <object label="Step 8: introduce job service" id="QQ_C-k0h6Ip4yUIKFo_p-151">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-70" value="Job Service" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;sketch=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-151" vertex="1">
+          <mxGeometry x="-420.5" y="293" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-80" value="REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QQ_C-k0h6Ip4yUIKFo_p-151" vertex="1" connectable="0">
+          <mxGeometry x="-374.99619047619035" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_C-k0h6Ip4yUIKFo_p-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="QQ_C-k0h6Ip4yUIKFo_p-151" source="QQ_C-k0h6Ip4yUIKFo_p-70" target="QQ_C-k0h6Ip4yUIKFo_p-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-362" y="344" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
